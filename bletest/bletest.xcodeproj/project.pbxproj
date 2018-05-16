@@ -10,6 +10,7 @@
 		E626EB32204F978B00A1B37B /* cannonball副本.png in Resources */ = {isa = PBXBuildFile; fileRef = E626EB30204F978A00A1B37B /* cannonball副本.png */; };
 		E626EB33204F978B00A1B37B /* cannonball.png in Resources */ = {isa = PBXBuildFile; fileRef = E626EB31204F978B00A1B37B /* cannonball.png */; };
 		E6489F3420ABFBA000E9B312 /* testObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E6489F3320ABFBA000E9B312 /* testObj.m */; };
+		E6489F3820AC09D500E9B312 /* kdlsjfl.m in Sources */ = {isa = PBXBuildFile; fileRef = E6489F3720AC09D500E9B312 /* kdlsjfl.m */; };
 		E6810EE12028259F0007BC7A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6810EDE2028259F0007BC7A /* RootViewController.m */; };
 		E6810EE22028259F0007BC7A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6810EDF2028259F0007BC7A /* RootViewController.xib */; };
 		E6810EE7202825AF0007BC7A /* AUIAnimatableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6810EE3202825AF0007BC7A /* AUIAnimatableLabel.m */; };
@@ -30,6 +31,8 @@
 		E626EB31204F978B00A1B37B /* cannonball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cannonball.png; sourceTree = "<group>"; };
 		E6489F3220ABFBA000E9B312 /* testObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testObj.h; sourceTree = "<group>"; };
 		E6489F3320ABFBA000E9B312 /* testObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testObj.m; sourceTree = "<group>"; };
+		E6489F3620AC09D500E9B312 /* kdlsjfl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kdlsjfl.h; sourceTree = "<group>"; };
+		E6489F3720AC09D500E9B312 /* kdlsjfl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kdlsjfl.m; sourceTree = "<group>"; };
 		E6810EDE2028259F0007BC7A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E6810EDF2028259F0007BC7A /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		E6810EE02028259F0007BC7A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -75,6 +78,15 @@
 			path = classes;
 			sourceTree = "<group>";
 		};
+		E6489F3520AC09C500E9B312 /* go */ = {
+			isa = PBXGroup;
+			children = (
+				E6489F3620AC09D500E9B312 /* kdlsjfl.h */,
+				E6489F3720AC09D500E9B312 /* kdlsjfl.m */,
+			);
+			path = go;
+			sourceTree = "<group>";
+		};
 		E6B35A6E2019A5C30087BD1F = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +106,7 @@
 		E6B35A792019A5C30087BD1F /* bletest */ = {
 			isa = PBXGroup;
 			children = (
+				E6489F3520AC09C500E9B312 /* go */,
 				E6489F3120ABFB8900E9B312 /* classes */,
 				E626EB31204F978B00A1B37B /* cannonball.png */,
 				E626EB30204F978A00A1B37B /* cannonball副本.png */,
@@ -202,6 +215,7 @@
 				E69C502B205FB33C0067CBD3 /* SVIndefiniteAnimatedView.m in Sources */,
 				E6489F3420ABFBA000E9B312 /* testObj.m in Sources */,
 				E6B35A8A2019A5C40087BD1F /* main.m in Sources */,
+				E6489F3820AC09D500E9B312 /* kdlsjfl.m in Sources */,
 				E6810EE8202825AF0007BC7A /* UIFont+CoreTextExtensions.m in Sources */,
 				E6B35A7C2019A5C30087BD1F /* AppDelegate.m in Sources */,
 				E6810F00202D73A00007BC7A /* fh.m in Sources */,
